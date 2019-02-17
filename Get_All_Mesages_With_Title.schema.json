@@ -1,0 +1,430 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string"
+        },
+        "properties": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "type": "string"
+                        },
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string"
+                                },
+                                "properties": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "createdDateTime": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "lastModifiedDateTime": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "changeKey": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "categories": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "receivedDateTime": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "sentDateTime": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "hasAttachments": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "internetMessageId": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "subject": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "bodyPreview": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "importance": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "parentFolderId": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "conversationId": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "isDeliveryReceiptRequested": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "isReadReceiptRequested": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "isRead": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "isDraft": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "webLink": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "inferenceClassification": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "body": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "properties": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "contentType": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        },
+                                                        "content": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "sender": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "properties": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "emailAddress": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "properties": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "name": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "address": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "from": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "properties": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "emailAddress": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "properties": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "name": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "address": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "toRecipients": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "type": {
+                                                            "type": "string"
+                                                        },
+                                                        "properties": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "emailAddress": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "properties": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "object",
+                                                                                    "properties": {
+                                                                                        "type": {
+                                                                                            "type": "string"
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                "address": {
+                                                                                    "type": "object",
+                                                                                    "properties": {
+                                                                                        "type": {
+                                                                                            "type": "string"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "required": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "ccRecipients": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "bccRecipients": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "replyTo": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "flag": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "properties": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "flagStatus": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "@@odata.etag": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "required": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "@@odata.context": {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
