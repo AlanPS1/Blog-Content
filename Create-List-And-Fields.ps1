@@ -50,20 +50,20 @@ $credentials = Get-Credential
 Connect-PnPOnline -Url $URL -Credentials $credentials
 
 # Create the list called "Get Messages From Title"
-New-PnPList -Title 'Get Messagess From Title' -Template GenericList -Url 'Lists/Get Messagess From Title' -OnQuickLaunch -ErrorAction Continue
+New-PnPList -Title 'Get Messagess From Title' -Template GenericList -Url 'Lists/Get Messages From Title' -OnQuickLaunch -ErrorAction Continue
 
 # Add the 14 fields listed in the blog
-Add-PnPField -List "Get Messagess From Title" -DisplayName "userPrincipalName" -InternalName "userPrincipalName" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "subject" -InternalName "subject" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "messageId" -InternalName "messageId" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "hasAttachments" -InternalName "hasAttachments" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "attachmentId" -InternalName "attachmentId" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "status" -InternalName "status" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "sender" -InternalName "sender" -Type Text -AddToDefaultView
-Add-PnPField -List "Get Messagess From Title" -DisplayName "createdDateTime" -InternalName "createdDateTime" -Type Text
-Add-PnPField -List "Get Messagess From Title" -DisplayName "receivedDateTime" -InternalName "TestColumn" -Type Text
-Add-PnPField -List "Get Messagess From Title" -DisplayName "sentDateTime" -InternalName "receivedDateTime" -Type Text
-Add-PnPField -List "Get Messagess From Title" -DisplayName "from" -InternalName "from" -Type Text
-Add-PnPField -List "Get Messagess From Title" -DisplayName "to" -InternalName "to" -Type Text
-Add-PnPField -List "Get Messagess From Title" -DisplayName "ccRecipients" -InternalName "ccRecipients" -Type Text
-Add-PnPField -List "Get Messagess From Title" -DisplayName "bccRecipients" -InternalName "bccRecipients" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "userPrincipalName" -InternalName "userPrincipalName" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "subject" -InternalName "subject" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "messageId" -InternalName "messageId" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "hasAttachments" -InternalName "hasAttachments" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "attachmentId" -InternalName "attachmentId" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "status" -InternalName "status" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "sender" -InternalName "sender" -Type Text -AddToDefaultView
+Add-PnPField -List "Get Messages From Title" -DisplayName "createdDateTime" -InternalName "createdDateTime" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "receivedDateTime" -InternalName "TestColumn" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "sentDateTime" -InternalName "receivedDateTime" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "from" -InternalName "from" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "to" -InternalName "to" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "ccRecipients" -InternalName "ccRecipients" -Type Text
+Add-PnPField -List "Get Messages From Title" -DisplayName "bccRecipients" -InternalName "bccRecipients" -Type Text
