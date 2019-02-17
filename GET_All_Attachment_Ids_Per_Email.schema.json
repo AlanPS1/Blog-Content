@@ -1,0 +1,54 @@
+{
+    "type": "object",
+    "properties": {
+        "@@odata.context": {
+            "type": "string"
+        },
+        "value": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@@odata.type": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "lastModifiedDateTime": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "contentType": {
+                        "type": "string"
+                    },
+                    "size": {
+                        "type": "integer"
+                    },
+                    "isInline": {
+                        "type": "boolean"
+                    },
+                    "contentId": {},
+                    "contentLocation": {},
+                    "contentBytes": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "@@odata.type",
+                    "id",
+                    "lastModifiedDateTime",
+                    "name",
+                    "contentType",
+                    "size",
+                    "isInline",
+                    "contentId",
+                    "contentLocation",
+                    "contentBytes"
+                ]
+            }
+        }
+    }
+}
