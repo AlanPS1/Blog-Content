@@ -21,10 +21,10 @@ No Outputs that are not the columns headers
 https://www.alanps1.io/power-platform/flow/flow-create-a-sharepoint-list-with-pnp-powershell-or-the-gui-part-3
 
 .NOTES
-Written by Alan Wightman
+Written by AlanPs1
 
 Version history:
-V1.00, 17/02/2019 - Initial version - AW
+V1.00, 17/02/2019 - Initial version - AlanPs1
 
 #>
 
@@ -50,10 +50,10 @@ $credentials = Get-Credential
 Connect-PnPOnline -Url $URL -Credentials $credentials
 
 # Set the $ListName variable
-$ListName = "Get Messages From Title"
+$ListName = 'Get Messages From Title'
 
 # Create the list called "Get Messages From Title"
-New-PnPList -Title $ListName -Template GenericList -Url 'Lists/Get Messages From Title' -OnQuickLaunch -ErrorAction Continue
+New-PnPList -Title $ListName -Template GenericList -Url "Lists/$ListName" -OnQuickLaunch -ErrorAction Continue
 
 # Add the 14 fields listed in the blog
 Add-PnPField -List $ListName -DisplayName "userPrincipalName" -InternalName "userPrincipalName" -Type Text -AddToDefaultView
@@ -70,3 +70,6 @@ Add-PnPField -List $ListName -DisplayName "from" -InternalName "from" -Type Text
 Add-PnPField -List $ListName -DisplayName "to" -InternalName "to" -Type Text
 Add-PnPField -List $ListName -DisplayName "ccRecipients" -InternalName "ccRecipients" -Type Text
 Add-PnPField -List $ListName -DisplayName "bccRecipients" -InternalName "bccRecipients" -Type Text
+
+# Disconnect from SharePointPnPPowerShellOnline
+Disconnect-PnPOnline
