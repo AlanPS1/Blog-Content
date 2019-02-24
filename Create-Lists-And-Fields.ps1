@@ -50,11 +50,11 @@ $credentials = Get-Credential
 Connect-PnPOnline -Url $URL -Credentials $credentials
 
 # Set the $ListName variable
-$List1Name = 'Get Messages From Title'
-$List2Name = 'Get Attachment IDs'
+$List1Name = 'Get Messages From Title1'
+$List2Name = 'Get Attachment IDs1'
 
 # Create the list called "Get Messages From Title"
-New-PnPList -Title $List1Name -Template GenericList -Url "Lists/$ListName" -OnQuickLaunch -ErrorAction Continue
+New-PnPList -Title $List1Name -Template GenericList -Url "Lists/$List1Name" -OnQuickLaunch -ErrorAction Continue
 
 # Add the 13 fields listed in the blog
 Add-PnPField -List $List1Name -DisplayName "userPrincipalName" -InternalName "userPrincipalName" -Type Text -AddToDefaultView
