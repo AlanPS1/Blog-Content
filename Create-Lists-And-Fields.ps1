@@ -72,7 +72,7 @@ Add-PnPField -List $List1Name -DisplayName "ccRecipients" -InternalName "ccRecip
 Add-PnPField -List $List1Name -DisplayName "bccRecipients" -InternalName "bccRecipients" -Type Text
 
 # Create the list called "Get Attachment IDs"
-New-PnPList -Title $List2Name -Template GenericList -Url "Lists/$ListName" -OnQuickLaunch -ErrorAction Continue
+New-PnPList -Title $List2Name -Template GenericList -Url "Lists/$List2Name" -OnQuickLaunch -ErrorAction Continue
 
 # Add the 14 fields listed in the blog
 Add-PnPField -List $List2Name -DisplayName "userPrincipalName" -InternalName "userPrincipalName" -Type Text -AddToDefaultView
