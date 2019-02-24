@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "TenantID": {
+            "type": "string"
+        },
+        "ClientID": {
+            "type": "string"
+        },
+        "SecretID": {
+            "type": "string"
+        },
+        "Authority": {
+            "type": "string"
+        },
+        "Audience": {
+            "type": "string"
+        },
+        "OpenFilter": {
+            "type": "string"
+        },
+        "CloseFilter": {
+            "type": "string"
+        },
+        "Status": {
+            "type": "string"
+        }
+    }
+}
