@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "value": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "AffectedWorkloadDisplayNames": {
+                        "type": "array"
+                    },
+                    "AffectedWorkloadNames": {
+                        "type": "array"
+                    },
+                    "Status": {},
+                    "Workload": {},
+                    "WorkloadDisplayName": {},
+                    "ActionType": {},
+                    "AffectedTenantCount": {},
+                    "AffectedUserCount": {},
+                    "Classification": {},
+                    "EndTime": {},
+                    "Feature": {},
+                    "FeatureDisplayName": {},
+                    "Id": {},
+                    "ImpactDescription": {},
+                    "LastUpdatedTime": {},
+                    "MessageType": {},
+                    "Messages": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "MessageText": {
+                                    "type": "string"
+                                },
+                                "PublishedTime": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "MessageText",
+                                "PublishedTime"
+                            ]
+                        }
+                    },
+                    "PostIncidentDocumentUrl": {},
+                    "Severity": {},
+                    "StartTime": {},
+                    "Title": {}
+                },
+                "required": []
+            }
+        }
+    }
+}
