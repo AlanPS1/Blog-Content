@@ -1,0 +1,104 @@
+<head>
+<style>
+body {
+	font-family: "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+	color: rgb(51, 51, 51);
+	background-color: #fff;
+	position: absolute!important;
+	scrollbar-base-color: #fff;
+	scrollbar-face-color: #c8c8c8;
+	scrollbar-shadow-color: #fff;
+	scrollbar-highlight-color: #fff;
+	scrollbar-3dlight-color: #fff;
+	scrollbar-darkshadow-color: #fff;
+	scrollbar-track-color: #fff;
+	scrollbar-arrow-color: #fff;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+}
+
+div {
+	display: block;
+}
+
+.outer-frame {
+	border: solid;
+	border-color: #eaeaea;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 4px !important;
+	border-left-color: #00abbc;
+	padding: 20px 0 20px 40px;
+	margin: 0 0 0 -10px;
+}
+
+.section-1 {
+
+}
+
+.section-2 {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+  padding: 20px 0 20px 0;
+	margin: 20px 0 20px 0;
+}
+
+.section-3 {
+	text-align:right;
+	display: block;
+}
+
+.bold-heading {
+	font-weight: bold;
+}
+
+.ms-font-m {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+table {
+	font-family: "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	border-collapse: collapse;
+	width: 90%;
+	text-align: center;
+}
+
+td, th {
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+th {
+	background-color: #F0F0F0;
+	color: black;
+	font-weight:normal;
+}
+.row-green{
+	background-color:#238823;
+	color: white;
+}
+
+.row-yellow{
+	background-color:#FFBF00;
+	color: black;
+}
+
+.row-red{
+	background-color:#D2222D;
+	color: white;
+}
+
+.row-black{
+	background-color:#808080;
+	color: white;
+}
+
+.row-blackout{
+	background-color:#202020;
+	color: white;
+}
+</style>
+</head>
