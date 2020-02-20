@@ -21,27 +21,23 @@ div {
 	display: block;
 }
 
-.outer-frame-alert {
+.outer-frame-alert, .outer-frame-notification {
 	border: solid;
 	border-color: #eaeaea;
 	border-right-width: 1px;
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 	border-left-width: 4px !important;
-	border-left-color: #00abbc;
 	padding: 20px 0 20px 40px;
 	margin: 0 0 0 -10px;
 }
+
+.outer-frame-alert {
+	border-left-color: #ff0000;
+}
+
 .outer-frame-notification {
-	border: solid;
-	border-color: #eaeaea;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 4px !important;
 	border-left-color: #00abbc;
-	padding: 20px 0 20px 40px;
-	margin: 0 0 0 -10px;
 }
 
 .section-1 {
