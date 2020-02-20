@@ -21,7 +21,18 @@ div {
 	display: block;
 }
 
-.outer-frame {
+.outer-frame-alert {
+	border: solid;
+	border-color: #eaeaea;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 4px !important;
+	border-left-color: #00abbc;
+	padding: 20px 0 20px 40px;
+	margin: 0 0 0 -10px;
+}
+.outer-frame-notification {
 	border: solid;
 	border-color: #eaeaea;
 	border-right-width: 1px;
@@ -40,7 +51,7 @@ div {
 .section-2 {
 	border-top: 1px solid #e6e6e6;
 	border-bottom: 1px solid #e6e6e6;
-  padding: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
 	margin: 20px 0 20px 0;
 }
 
